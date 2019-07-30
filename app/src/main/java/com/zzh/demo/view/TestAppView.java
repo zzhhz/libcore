@@ -8,9 +8,9 @@ import android.util.Log;
 import com.zzh.libcore.stream.activity.ActivityDestroyedStream;
 import com.zzh.libcore.stream.activity.ActivityResumedStream;
 import com.zzh.libcore.stream.activity.ActivityStoppedStream;
-import com.zzh.libcore.view.FControlView;
+import com.zzh.libcore.view.HControlView;
 
-public class TestAppView extends FControlView implements ActivityResumedStream, ActivityStoppedStream, ActivityDestroyedStream
+public class TestAppView extends HControlView implements ActivityResumedStream, ActivityStoppedStream, ActivityDestroyedStream
 {
     public static final String TAG = TestAppView.class.getSimpleName();
 

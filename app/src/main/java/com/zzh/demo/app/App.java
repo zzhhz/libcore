@@ -1,12 +1,12 @@
 package com.zzh.demo.app;
 
 
-import com.zzh.libcore.app.FApplication;
+import com.zzh.libcore.app.HApplication;
 
 /**
  * Created by Administrator on 2017/5/27.
  */
-public class App extends FApplication
+public class App extends HApplication
 {
     private static App sInstance;
 
